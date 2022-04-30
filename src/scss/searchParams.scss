@@ -1,0 +1,31 @@
+.queryInput {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.queryInput .tooltip-text {
+    visibility: hidden;
+    width: max-content;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #00d09c;
+    color: #342525;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+    position: absolute;
+    z-index: 1;
+}
+
+.queryInput:hover .tooltip-text {
+    visibility: visible;
+}
+
+.hide {
+    display: none;
+}

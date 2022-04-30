@@ -1,0 +1,17 @@
+.main_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.shadow {
+    text-shadow: 2px 2px 3px grey;
+}
+
+.paperData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
